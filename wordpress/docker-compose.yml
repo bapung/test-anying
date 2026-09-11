@@ -5,6 +5,7 @@ services:
     ports:
       - "80:80"
     environment:
+      TEST_ANYING_REV: '1'
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD}
